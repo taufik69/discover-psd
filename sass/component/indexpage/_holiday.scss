@@ -1,0 +1,36 @@
+/*--------------------------------------------
+            Holiday part Start
+------------------------------------------------*/
+#holiday{
+    padding: 119px 0;
+    .imgleft{
+        p{
+            @include fs(18px,400,#FBD784);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        h3{
+            @include fs(60px,600,#ffff); 
+            text-transform: uppercase;
+        }
+        .paragraph{
+            @include fs(14px,400,#ffff); 
+            line-height: 25px;
+            margin: 20px 0 0px 0;
+            width: 75%;
+            
+        }
+        a{
+            display: inline-block;
+            margin-top: 40px;
+            @include fs(18px,700,#FBD784);
+            text-transform: uppercase; 
+            
+        }
+    }
+}
+
+/*--------------------------------------------
+            Holiday part end
+------------------------------------------------*/

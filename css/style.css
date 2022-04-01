@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+/*=======================================================
+            common css start
+==========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h5, p, ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+/*=======================================================
+            common css end
+==========================================================*/
+/*--------------------------------------------------
+                Navbar part start
+-----------------------------------------------------*/
+.customnav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.customnav ul li {
+  padding: 0 10px;
+}
+
+.customnav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.customnav ul li a:hover {
+  color: #fff !important;
+}
+
+.customnav .search i.fa-magnifying-glass {
+  padding-right: 10px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.customnav .search .in {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*--------------------------------------------------
+                Navbar part start
+-----------------------------------------------------*/
+#banner-part {
+  padding: 252px 0;
+}
+
+#banner-part h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFC178;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#banner-part h1 {
+  font-size: 96px;
+  font-weight: 600;
+  color: #ffff;
+  position: relative;
+}
+
+#banner-part h1 .sp {
+  font-size: 58px;
+  font-weight: 400;
+  color: #ffff;
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+}
+
+/*--------------------------------------------
+            Holiday part Start
+------------------------------------------------*/
+#holiday {
+  padding: 119px 0;
+}
+
+#holiday .imgleft p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FBD784;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#holiday .imgleft h3 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+#holiday .imgleft .paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 25px;
+  margin: 20px 0 0px 0;
+  width: 75%;
+}
+
+#holiday .imgleft a {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FBD784;
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------
+            Holiday part end
+------------------------------------------------*/
+/*--------------------------------------------------
+                Hill part start
+-----------------------------------------------------*/
+#hill-part {
+  padding: 100px 0;
+}
+
+#hill-part .main {
+  text-align: center;
+}
+
+#hill-part .main .head {
+  margin-top: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FBD784;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+#hill-part .main h2 {
+  margin-top: 20px;
+  font-size: 64px;
+  font-weight: 800;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+#hill-part .main .description {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 30px;
+  padding: 0px 294px;
+  margin-bottom: 20px;
+}
+
+#hill-part .main a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FBD784;
+  margin-bottom: 20px;
+}
+
+#hill-part .main a:hover {
+  color: violet;
+}
+
+/*--------------------------------------------------
+                Hill part End
+-----------------------------------------------------*/
+/*---------------------------------------------
+            Footer part css start
+------------------------------------------------*/
+#fotter-part {
+  padding: 30px 0;
+}
+
+#fotter-part .footer-top-right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#fotter-part .footer-top-right .ready {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+#fotter-part .footer-top-right .btnstart {
+  padding: 18px 67px;
+  background: #FFA343;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+  border-radius: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#fotter-part .footer-top-right .btnstart:hover {
+  background: #FFD1A0;
+}
+
+#fotter-part .main-footer-left {
+  margin-top: 70px;
+}
+
+#fotter-part .main-footer-left h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffff;
+  margin: 10px 0 30px 0;
+}
+
+#fotter-part .main-footer-left a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffff;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+#fotter-part .footer-right {
+  margin-top: 70px;
+}
+
+#fotter-part .footer-right ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
+  padding: 8px 0;
+}
+
+#fotter-part .footer-right ul li:first-child {
+  color: #FFD1A0;
+}
+
+#fotter-part .icon-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+#fotter-part .icon-box i {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#fotter-part .icon-box i:hover {
+  color: palegreen;
+  cursor: pointer;
+}
+
+#fotter-part .copyright {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+/*---------------------------------------------
+            Footer part css End
+------------------------------------------------*/
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+/*--------------------------------------------------
+                Hill part start
+-----------------------------------------------------*/
+
+#hill-part{
+    padding:100px 0;
+    .main{
+        text-align: center;
+        .head{
+            margin-top: 300px;
+            @include fs(18px , 600, #FBD784);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        h2{
+            margin-top: 20px;
+            @include fs(64px , 800, #ffff);
+            text-transform: uppercase;
+        }
+        .description{
+            margin-top: 20px;
+            @include fs(14px , 400, #ffff);
+            line-height: 30px;
+            padding:0px 294px;
+            margin-bottom: 20px;
+        }
+        a{
+            display: inline-block;
+            text-transform: uppercase;
+            @include fs(16px , 600, #FBD784);
+            margin-bottom: 20px;
+            &:hover{
+                color: violet;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------
+                Hill part End
+-----------------------------------------------------*/

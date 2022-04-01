@@ -1,0 +1,39 @@
+/*--------------------------------------------------
+                Navbar part start
+-----------------------------------------------------*/
+.customnav{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    ul{
+        li{
+            padding: 0 10px;
+            a{
+                @include fs(16px,600,#fff);
+                &:hover{
+                    color: #fff !important;
+                }
+            }
+
+        }
+    }
+    .search{
+        i.fa-magnifying-glass{
+            padding-right:10px;
+            line-height: 30px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .in{
+            border: none;
+            background: transparent;
+            @include fs(16px,400,#fff);
+           
+        }
+    }
+}
+
+
+/*--------------------------------------------------
+                Navbar part start
+-----------------------------------------------------*/

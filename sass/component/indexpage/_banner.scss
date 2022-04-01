@@ -1,0 +1,21 @@
+#banner-part{
+    padding: 252px 0;
+
+
+    h5{
+        @include fs(18px,400,#FFC178);
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    h1{
+        @include fs(96px,600,#ffff);
+        position: relative;
+        .sp{
+            @include fs(58px,400,#ffff);            
+            position: absolute;
+            content: '';
+            top: 100%;
+            left: 0;
+        }
+    }
+}

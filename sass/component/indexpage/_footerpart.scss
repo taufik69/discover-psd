@@ -1,0 +1,74 @@
+/*---------------------------------------------
+            Footer part css start
+------------------------------------------------*/
+#fotter-part{
+    padding: 30px 0;
+    .footer-top-right{
+        justify-content: end;
+        .ready{
+            @include fs(20px,400, #fff);
+            margin-right: 30px;
+            margin-top: 15px;
+        }
+        .btnstart{
+            padding: 18px 67px;
+            background: #FFA343;
+            @include fs(17px,600, #000000);
+            border-radius: 10px;
+            transition: .2s;
+            &:hover{
+                background: #FFD1A0;
+            }
+        }
+    }
+    .main-footer-left{
+        margin-top: 70px;
+        h2{
+            @include fs(35px,600, #ffff);
+            margin: 10px 0 30px 0;
+     
+          }
+          a{
+            @include fs(15px,400, #ffff);
+            margin-right: 70px;
+            display: inline-block;
+        }  
+    }
+    .footer-right{
+        margin-top: 70px;
+        ul{
+            li{
+                @include fs(16px,500, #ffff);
+                padding: 8px 0;
+                &:first-child{
+                    color: #FFD1A0;
+                }
+            }
+        }
+    }
+    .icon-box{
+        
+        justify-content: center;
+        margin-top: 70px;
+        i{
+            color: #fff;
+            padding-right: 20px;
+            font-size: 20px;
+            transition: .2s;
+            &:hover{
+                color: palegreen;
+                cursor: pointer;
+            }
+        }
+    }
+    .copyright{
+        margin-top: 40px;
+        @include fs(16px,400, #ffff);
+    }
+}
+
+
+
+/*---------------------------------------------
+            Footer part css End
+------------------------------------------------*/
